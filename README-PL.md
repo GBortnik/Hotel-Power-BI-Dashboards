@@ -4,40 +4,40 @@ To repozytorium GitHub służy do przechowywania dashboardów Hotel Revenue stwo
 English version of the document can be [found here](README.md)/Angielską wersję dokumentu można [znaleźć tutaj](README.md).
 
 ## Zawartość
-* [Summary Dashboard](###Summary-Dashboard)
-* [Meals & Special Requests](###Meals-&-Special-Requests)
-* [Demography](###Demography)
-* [Marketing & Operations](###Marketing-&-Operations)
-* [Import danych](###Import-danych)
-* [Formuły DAX: miary i kolumny](###Formuły-DAX:-miary-i-kolumny)
+* [Summary Dashboard](#summary-dashboard)
+* [Meals & Special Requests](#meals--special-requests)
+* [Demography](#demography)
+* [Marketing & Operations](#marketing--operations)
+* [Import danych](#import-danych)
+* [Formuły DAX: miary i kolumny](#formuły-dax-miary-i-kolumny)
 
 ### Summary Dashboard
 ![Summary Dashboard](./images/Summary%20Dashboard.png)
 
 Dashboard podsumowujący kluczowe wskaźniki finansowe hoteli. Zawiera analizę przychodów według typu hotelu (miastowy vs. wypoczynkowy) z wykorzystaniem wykresu donutowego, przedział czasowy (2018–2020) z możliwością filtrowania po datach, oraz szczegóły dotyczące rabatów i zajętości miejsc parkingowych. Dodatkowo, tabela z danymi rocznymi umożliwia głębszą analizę trendów przychodów i powiązanych metryk.
 
-Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](####Summary-Dashboard).
+Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](#summary-dashboard-1).
 
 ### Meals & Special Requests
 ![Meals & Special Requests](./images/Meals%20&%20Special%20Requests.png)
 
 Dashboard 'Meals & Special Requests' koncentruje się na analizie przychodów z posiłków oraz specjalnych próśb gości hotelowych. Prezentuje kluczowe metryki, takie jak całkowity przychód z posiłków i średni przychód na pobyt. Zawiera tabelę z danymi rocznymi (2018–2021) oraz podział przychodów według typu posiłku (np. Bed & Breakfast, Full Board). Dodatkowo, wizualizacje osi czasu pozwalają śledzić trendy przychodów i próśb w wybranych okresach (np. 2019–2020).
 
-Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](####Meals-&-Special-Requests).
+Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](#meals--special-requests-1).
 
 ### Demography
 ![Demography](./images/Demography.png)
 
 Dashboard "Demography" to narzędzie analityczne przedstawiające szczegółową demografię gości hotelowych. Na interaktywnej mapie geograficznej, wzbogaconej rozbudowanymi tooltipami, prezentowane są kluczowe wskaźniki takie jak całkowity przychód z rezerwacji (total bookings revenue), liczba gości czy średnia długość pobytu. Dashboard zawiera również analizę grup wiekowych oraz inteligentną klasyfikację typów podróżujących (solo, para, rodzina) opartą na zaawansowanych miarach DAX. Rozwiązanie pozwala na wielowymiarową analizę danych z możliwością szybkiego przełączania między różnymi perspektywami.
 
-Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](####Demography).
+Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](#demography-1).
 
 ### Marketing & Operations
 ![Marketing & Operations](./images/Marketing%20&%20Operations.png)
 
 Dashboard "Marketing & Operations" koncentruje się na analizie efektywności strategii marketingowych oraz procesów operacyjnych hotelu. Bada kluczowe wskaźniki, takie jak wskaźnik bezpośrednich rezerwacji (direct booking rate) czy odsetek powracających gości (returning guests rate), aby ocenić lojalność klientów i skuteczność kampanii. W zakresie operacji, dashboard analizuje czas wyprzedzenia rezerwacji (lead time) za pomocą niestandardowego histogramu, stworzonego poprzez modyfikację wykresu kolumnowego w Power BI – co pozwala na identyfikację wzorców planowania pobytów przez gości. Narzędzie łączy w sobie dane o segmentacji rynku, typach klientów i trendach czasowych, umożliwiając holistyczną optymalizację działań biznesowych.
 
-Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](####Marketing-&-Operations).
+Szczegóły dotyczące miar DAX i kolumn obliczeniowych użytych w tym dashboardzie znajdują się w sekcji [Formuły DAX: miary i kolumny](#marketing--operations-1).
 
 ### Import danych
 Dane zostały załadowane do **Power BI** bezpośrednio z serwera **SQL Server** wykorzystując poniższe zapytanie SQL:

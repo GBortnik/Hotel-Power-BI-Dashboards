@@ -4,40 +4,40 @@ This is the GitHub repository for storing Hotel Revenue Dashboards created using
 Polish version of the document can be [found here](README-PL.md)/Polską wersję dokumentu można [znaleźć tutaj](README-PL.md).
 
 ## Contents
-* [Summary Dashboard](###Summary-Dashboard)
-* [Meals & Special Requests](###Meals-&-Special-Requests)
-* [Demography](###Demography)
-* [Marketing & Operations](###Marketing-&-Operations)
-* [Data Loading](###Data-Loading)
-* [DAX Measures and Columns](###DAX-Measures-and-Columns)
+* [Summary Dashboard](#summary-dashboard)
+* [Meals & Special Requests](#meals--special-requests)
+* [Demography](#demography)
+* [Marketing & Operations](#marketing--operations)
+* [Data Loading](#data-loading)
+* [DAX Measures and Columns](#dax-measures-and-columns)
 
 ### Summary Dashboard
 ![Summary Dashboard](./images/Summary%20Dashboard.png)
 
 A summary dashboard highlighting key financial metrics for hotels. Features a donut chart comparing revenue distribution by hotel type (City vs. Resort), interactive date filters (2018–2020), and insights into discounts and parking space utilization. A supplementary table provides granular details on annual revenue trends, parking rights, and discount percentages for deeper analysis.
 
-For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](####Summary-Dashboard).
+For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](#summary-dashboard-1).
 
 ### Meals & Special Requests
 ![Meals & Special Requests](./images/Meals%20&%20Special%20Requests.png)
 
 The "Meals & Special Requests" dashboard focuses on analyzing meal-related revenue and guest special requests. Key metrics include total meal revenue, average revenue per stay, and special request statistics. It features a yearly data table and a breakdown of revenue by meal type (e.g., Bed & Breakfast, Full Board). Interactive timeline visualizations track revenue and request trends across selected periods (e.g., 2019–2020).
 
-For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](####Meals-&-Special-Requests).
+For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](#meals--special-requests-1).
 
 ### Demography
 ![Demography](./images/Demography.png)
 
 The "Demography" dashboard is an advanced analytical tool providing in-depth insights into hotel guest demographics. Its interactive geographical map features comprehensive tooltips displaying key metrics like total bookings revenue, guest count and average stay duration. The dashboard includes age group analysis and smart traveler type classification (solo, couple, family) based on sophisticated DAX measures. This solution enables multidimensional data analysis with quick switching between different perspectives.
 
-For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](####Demography).
+For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](#demography-1).
 
 ### Marketing & Operations
 ![Marketing & Operations](./images/Marketing%20&%20Operations.png)
 
 The "Marketing & Operations" dashboard focuses on analyzing the effectiveness of marketing strategies and operational processes in the hotel industry. It evaluates key performance indicators such as direct booking rate and returning guests rate to assess customer loyalty and campaign success. For operations, the dashboard explores booking lead time through a custom histogram, ingeniously created by modifying a clustered column chart in Power BI, which reveals patterns in how far in advance guests plan their stays. By integrating data on market segmentation, customer types, and temporal trends, this tool enables a holistic approach to optimizing business decisions.
 
-For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](####Marketing-&-Operations).
+For details on the DAX measures and calculated columns used in this dashboard, refer to the [DAX Measures and Columns](#marketing--operations-1).
 
 ### Data Loading
 The dataset was loaded into **Power BI** from an **SQL Server** using the following query:
