@@ -1,5 +1,5 @@
 # Hotel Revenue
-To repozytorium GitHub służy do przechowywania dashboardów Hotel Revenue stworzonych w Power BI. Projekt bazuje na [zbiorze danych Hotel Revenue](https://www.kaggle.com/datasets/govindkrishnadas/hotel-revenue). 
+To repozytorium GitHub służy do przechowywania dashboardów Hotel Revenue stworzonych w Power BI. Projekt bazuje na [zbiorze danych Hotel Revenue](https://www.kaggle.com/datasets/govindkrishnadas/hotel-revenue). Statyczny eksport dashboardów w formacie PDF jest dostępny [tutaj](./Hotel%20Revenue%20Dashboards.pdf). Należy pamiętać, że wersja PDF nie obsługuje elementów interaktywnych.
 
 English version of the document can be [found here](README.md)/Angielską wersję dokumentu można [znaleźć tutaj](README.md).
 
